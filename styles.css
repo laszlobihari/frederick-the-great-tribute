@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("Fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf");
+}
+
+.base-frame {
+    height: 100%;
+    width: 100vw;    
+    background-color: #F5EFE7;
+    border-radius: 10px;
+    margin: auto 0 1vw auto;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Cormorant Garamond", serif;
+}
+
+img, div {
+    max-width: 100%; /* Ensures images or divs stay within the viewport */
+    box-sizing: border-box; /* Prevents padding or borders from adding extra width */
+}
+
+.title {
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.header-line {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.head-picture-container {
+    height: 42vw;
+    width: 78vw;
+    margin: auto 11vw auto 11vw;
+}
+
+.head-picture-container > img {
+    height: 40vw;
+    width: 77.5vw;
+    margin-bottom: -1vw;
+}
+
+.head-picture-container > p {
+    font-size: 1.1em;
+}
+
+.timeline {
+    padding: 0 0 2em 0;
+    margin: 0;
+}
+
+.timeline > h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.timeline > p {
+    font-size: 1.3em;
+    margin: 1em 11vw 1em 11vw;
+}
+
+.quote-section {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.quote-section > p {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+}
+
+.further-reads {
+    font-size: 1.1em;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
