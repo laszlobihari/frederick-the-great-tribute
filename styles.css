@@ -84,35 +84,37 @@ img, div {
     font-weight: bold;
 }
 
-@media (max-width: 600px) {
-    .timeline > h2 {
-        font-size: 2em;
+@media (max-width: 450px) { /*for mobiles*/
+    .title {
+        font-size: 2.5em;
         text-align: center;
-        margin-top: 6em;
+        padding-top: 1vw;
     }
 
     .head-picture-container {
         height: 50vw;
-        width: 91vw;
+        width: 100%;
         position: relative;
-        right: 47px;
+        margin: auto;
         
     }
     
     .head-picture-container > img {
-        height: 46vw;
-        width: 90vw;
+        height: 51.6vw;
+        width: 100%;
         margin-bottom: -1vw;
     }
 
     .head-picture-container > p {
         font-size: 0.9em;
-        margin-bottom: 2em;
+        position: relative;
+        margin: auto;
+        padding: 0 0.5em; 
     }
 
     .timeline > h2 {
         font-size: 2em;
         text-align: center;
-        margin-top: 6em;
+        margin-top: 3em;
     }
 }
