@@ -81,3 +81,47 @@ img, div {
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .base-frame {
+        width: 100%; /* Full width on small screens */
+        padding: 1em; /* Add some padding */
+    }
+
+    .title {
+        font-size: 2.5em;
+    }
+
+    .header-line {
+        font-size: 1.2em;
+    }
+
+    .head-picture-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .head-picture-container > img {
+        width: 100%; /* Let the image scale naturally */
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .timeline > h2 {
+        font-size: 1.5em;
+    }
+
+    .timeline > p {
+        font-size: 1em;
+        margin: 1em 5vw;
+    }
+
+    .quote-section > p {
+        font-size: 1em;
+        padding: 0 1em;
+    }
+
+    .further-reads {
+        font-size: 1em;
+    }
+}
