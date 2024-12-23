@@ -58,7 +58,7 @@ img, div {
 .timeline > h2 {
     font-size: 2em;
     text-align: center;
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 .timeline > p {
@@ -82,4 +82,37 @@ img, div {
     text-align: center;
     padding-bottom: 10px;
     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .timeline > h2 {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 6em;
+    }
+
+    .head-picture-container {
+        height: 50vw;
+        width: 91vw;
+        position: relative;
+        right: 47px;
+        
+    }
+    
+    .head-picture-container > img {
+        height: 46vw;
+        width: 90vw;
+        margin-bottom: -1vw;
+    }
+
+    .head-picture-container > p {
+        font-size: 0.9em;
+        margin-bottom: 2em;
+    }
+
+    .timeline > h2 {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 6em;
+    }
 }
